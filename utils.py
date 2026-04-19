@@ -220,14 +220,15 @@ def sauvegarder_donnees_clean(
 
     print(f"Données sauvegardées dans : {chemin_fichier}")
 
+
 def classifier_risque(valeur):
     """Classifie le niveau de risque allergique selon les seuils RNSA.
-    
+
     Paramètres
     ----------
     valeur : float
         Concentration de pollen en grains/m³
-        
+
     Retourne
     -------
     int : 0 (Faible ≤30), 1 (Modéré 31-80), 2 (Élevé >80)
