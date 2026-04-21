@@ -236,7 +236,7 @@ Encadrants : **Julien Pramil**  · **Lino Galiana**
 
 - Modèles entraînés sur Rennes uniquement, non généralisables directement à d'autres villes
 - Les données pollen de l'API Open-Meteo sont issues d'un modèle atmosphérique, pas de mesures terrain (contrairement au Réseau Sentinelles / RNSA)
-- L'API archive publie ses données avec 1 à 2 jours de délai
+- L'API archive publie ses données avec 1 à 2 jours de délai (**une perspective serait donc d'intégrer la prévision dans l'application**)
 
 ---
 
