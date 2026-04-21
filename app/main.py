@@ -32,7 +32,7 @@ st.set_page_config(
 )
 
 # ═════════════════════════════════════════════════════════════════════════════
-# CSS — THÈME PRINTEMPS
+# CSS —
 # ═════════════════════════════════════════════════════════════════════════════
 st.markdown("""
 <style>
@@ -87,7 +87,15 @@ html, body, [class*="css"] {
 [data-testid="stMetricValue"] { font-size: 22px !important; }
 
 /* Masquer éléments Streamlit */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu { visibility: hidden; }
+#footer { visibility: hidden; }
+#header { visibility: hidden; }
+
+/* Mais on garde le bouton de collapse/expand de la sidebar visible */
+[data-testid="collapsedControl"] {
+    visibility: visible !important;
+    display: block !important;
+}
 
 /* Fix date input et radio dans sidebar */
 [data-testid="stSidebar"] [data-testid="stDateInput"] input {
